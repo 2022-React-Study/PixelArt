@@ -1,5 +1,13 @@
+import Header from "./Components/topSide/Header";
+import Main from "./Pages/Main";
+
 function App() {
-  return null;
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
 
 export default App;
